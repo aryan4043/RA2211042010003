@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+  int a;
+  float b;
+  
+  printf("enter integer and then a float:");
+  scanf("%d%f" ,&a, &b);
+  
+  printf("you enterd%d and %f",a,b);
+  return 0;
+}
